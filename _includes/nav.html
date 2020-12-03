@@ -1,0 +1,38 @@
+{% assign nav-logo = site.navbar.logo %}
+{% unless nav-logo %}{% assign nav-logo = site.logo %}{% endunless %}
+
+{% assign nav-title = site.navbar.title %}
+{% unless nav-title %}{% assign nav-title = site.title %}{% endunless %}
+
+<nav>
+    <ul class="navbar-brand">
+        {% if nav-logo %}
+        <li><a href="/"><img src="{{nav-logo}}"
+                             alt="{{nav-title}}"></a></li>
+        {% endif %}
+        <li><a href="/">{{nav-title}}</a></li>
+    </ul>
+
+    <div class="navbar-menu">
+        <ul class="navbar-start">
+            {% for n in site.navbar.start %}
+            <li><a href="{{n.url}}">
+                    {% if n.icon %}
+                    {% include feather.html icon=n.icon %}
+                    {% endif %}
+                    <span>{{n.title}}</span>
+            </a></li>
+            {% endfor %}
+        </ul>
+        <ul class="navbar-end">
+            {% for n in site.navbar.end %}
+            <li><a href="{{n.url}}">
+                    {% if n.icon %}
+                    {% include feather.html icon=n.icon %}
+                    {% endif %}
+                    <span>{{n.title}}</span>
+            </a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
