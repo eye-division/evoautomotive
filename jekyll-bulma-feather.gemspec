@@ -8,7 +8,7 @@ end
 
 def self.bulma_files
   `git ls-files -z --recurse-submodules`.split("\x0").select do |f|
-    f.match %r!^_sass/bulma/sass!i
+    f.match %r!^(_sass/bulma/sass|_sass/bulma/bulma)!i
   end
 end
 
@@ -17,7 +17,7 @@ puts self.bulma_files
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-bulma-feather"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Ryan S. Northrup (RyNo)"]
   spec.email         = ["northrup@yellowapple.us"]
 
