@@ -20,6 +20,10 @@ body {
                 @extend .navbar-item;
                 display: flex;
                 width: 100%;
+
+                img {
+                    padding: 0px;
+                }
             }
 
             // a {
