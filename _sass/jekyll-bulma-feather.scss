@@ -1,22 +1,17 @@
 $navbar-background-color: #000;
 $navbar-item-color: #eee;
 $navbar-item-hover-color: #000;
-//$navbar-tab-active-color: #eee;
-//$navbar-dropdown-item-active-color: #eee;
 
 @import "bulma";
 
 body {
     >nav {
         @extend .navbar;
-        //@extend .is-black;
 
         li {
-            //@extend .navbar-item;
             display: flex;
 
             * {
-                //@extend .has-text-light;
                 @extend .navbar-item;
                 display: flex;
                 width: 100%;
@@ -25,16 +20,10 @@ body {
                     padding: 0px;
                 }
             }
-
-            // a {
-            //     @extend .navbar-item;
-            //     display: flex;
-            // }
         }
 
         .navbar-menu {
             @extend .is-active;
-            //@extend .is-black;
         }
 
         .navbar-brand {
