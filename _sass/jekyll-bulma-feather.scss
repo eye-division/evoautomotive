@@ -16,8 +16,14 @@ body {
                 display: flex;
                 width: 100%;
 
+                // For some reason these need overridden on GitHub Pages; I
+                // think it's an issue with whatever SASS compiler it uses.
                 * {
                     padding: 0px;
+                }
+
+                *:hover {
+                    color: $navbar-item-hover-color;
                 }
             }
         }
