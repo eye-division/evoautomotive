@@ -7,8 +7,9 @@
 <nav>
     <ul class="navbar-brand">
         {% if nav-logo %}
-        <li><a href="{{'/' | absolute_url}}"><img src="{{nav-logo}}"
-                                                  alt="{{nav-title}}"></a></li>
+        <li><a href="{{'/' | absolute_url}}">
+                <img src="{{nav-logo | absolute_url}}" alt="{{nav-title}}">
+        </a></li>
         {% endif %}
         <li><a href="{{'/' | absolute_url}}">{{nav-title}}</a></li>
     </ul>
