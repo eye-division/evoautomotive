@@ -123,3 +123,8 @@ with the clean-slate Bulma approach per above).
     }
 }
 ```
+
+# Who?
+
+See the included `COPYING.md` file for details (or if you're viewing this README
+as a Jekyll site, click the "License" link in the navbar above).

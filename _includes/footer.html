@@ -1,14 +1,19 @@
+{% assign copyright-year = site.copyright-year %}
+{% unless copyright-year %}
+{% capture copyright-year %}{{ 'now' | date: '%Y' }}{% endcapture %}
+{% endunless %}
+
 <footer>
     <p>
-        Copyright © 2020 Ryan S. Northrup ("RyNo").  This website is free
-        software under the <a href="/COPYING.txt">ISC License</a>.
+        Copyright © {{copyright-year}} {{site.author}}.  This website
+        is <a href="{{'/COPYING' | absolute_url }}">free software</a>.
     </p>
 
     <p>
         Built w/ <a href="https://bulma.io">Bulma</a>,
         <a href="https://feathericons.com">Feather</a>,
-        and <a href="https://jekyllrb.com">Jekyll</a>, and hosted
-        on <a href="https://github.com/Base32H/base32h.github.io">GitHub
-        Pages</a>.  Pull requests welcome.
+        and <a href="https://jekyllrb.com">Jekyll</a>, using
+        the <a href="https://github.com/YellowApple/jekyll-bulma-feather">jekyll-bulma-feather
+        theme</a>.
     </p>
 </footer>

@@ -8,5 +8,6 @@
     <title>{{site.title}}</title>
     {% endif %}
 
-	<link href="/assets/style.css" rel="stylesheet" type="text/css">
+	<link href="{{'/assets/style.css' | absolute_url}}"
+          rel="stylesheet" type="text/css">
 </head>

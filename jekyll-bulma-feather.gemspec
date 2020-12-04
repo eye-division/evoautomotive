@@ -17,7 +17,7 @@ puts self.bulma_files
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-bulma-feather"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Ryan S. Northrup (RyNo)"]
   spec.email         = ["northrup@yellowapple.us"]
 
