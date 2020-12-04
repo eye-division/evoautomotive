@@ -99,7 +99,7 @@ well-suited for use in the nav bar, you can freely override them).
 You can use a Feather icon by name, like so:
 
 ```html
-{% include feather.html icon="github" %}
+{% raw %}{% include feather.html icon="github" %}{% endraw %}
 ```
 
 The default Feather styling is through the `.feather-icon` class, which you can
