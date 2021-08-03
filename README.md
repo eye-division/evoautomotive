@@ -69,7 +69,7 @@ your own `assets/style.scss` with the following:
 
 If you want a clean slate, you can do `@import "bulma"` instead.  You'll likely
 want to define your own `_layouts/default.html` if you do so (since it relies
-heavily on the theme's "battiers-included" tweaks).
+heavily on the theme's "batteries-included" tweaks).
 
 ### Navbar
 
