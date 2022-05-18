@@ -1,19 +1,18 @@
-title: jekyll-bulma-feather
+title: Evo Automotive Solutions
+
+theme: jekyll-bulma-feather
+
 author: 'Ryan S. Northrup ("RyNo")'
 navbar:
-  title: JBF
-  logo: /assets/jekyll-bulma-feather.svg
+  title: Evo Automotive Solutions
+  logo: /assets/evo-logo-500-rv.png
   start:
-    - title: Home
-      url: /
-      icon: home
-    - title: License
-      url: /COPYING
-      icon: file-text
-  end:
-    - title: GitHub
-      url: https://github.com/YellowApple/jekyll-bulma-feather
-      icon: github
+    - title: Products
+      url: /#products
+    - title: About us
+      url: /#aboutus
+    - title: Contact us
+      url: /#contactus
 defaults:
   - scope:
       path: ""

@@ -1,39 +1,31 @@
-{% assign nav-logo = site.navbar.logo %}
-{% unless nav-logo %}{% assign nav-logo = site.logo %}{% endunless %}
 
-{% assign nav-title = site.navbar.title %}
-{% unless nav-title %}{% assign nav-title = site.title %}{% endunless %}
+<section class="section is-medium has-text-centered has-background-black">
+    <img src="/assets/evo-logo-500-rv.png" width="500" alt="Evo Automotive Solutions">
+</section>
+<nav class="navbar is-black">
 
-<nav>
-    <ul class="navbar-brand">
-        {% if nav-logo %}
-        <li><a href="{{'/' | relative_url}}">
-                <img src="{{nav-logo | relative_url}}" alt="{{nav-title}}">
-        </a></li>
-        {% endif %}
-        <li><a href="{{'/' | relative_url}}">{{nav-title}}</a></li>
-    </ul>
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            
+        </div>
+        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
 
-    <div class="navbar-menu">
-        <ul class="navbar-start">
+    <br>
+
+    <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
             {% for n in site.navbar.start %}
-            <li><a href="{{n.url | relative_url}}">
-                    {% if n.icon %}
-                    {% include feather.html icon=n.icon %}
-                    {% endif %}
-                    <span>{{n.title}}</span>
-            </a></li>
+            <a href="{{n.url | relative_url}}" class="navbar-item">
+            <span>{{n.title}}</span>
+            </a>
             {% endfor %}
-        </ul>
-        <ul class="navbar-end">
-            {% for n in site.navbar.end %}
-            <li><a href="{{n.url | relative_url}}">
-                    {% if n.icon %}
-                    {% include feather.html icon=n.icon %}
-                    {% endif %}
-                    <span>{{n.title}}</span>
-            </a></li>
-            {% endfor %}
-        </ul>
+        </div>
+
     </div>
 </nav>
+

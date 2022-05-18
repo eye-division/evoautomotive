@@ -47,8 +47,12 @@ body {
             }
 
             img {
-                max-height: 48px;
+                //max-height: 48px;
             }
+        }
+        .navbar-start {
+            justify-content: center;
+            margin: 0 auto;
         }
     }
 
@@ -214,3 +218,8 @@ body {
     background-color: #f14668;
     border-radius: 4px;
 }
+
+.bulma-fa-mixin {
+    @include fa(1rem, 2rem);
+    background-color: white; // For demo purposes
+  }

@@ -1,1 +1,129 @@
-README.md
+---
+layout: onepage
+title: Evo Automotive Solutions Ltd
+---
+
+<section class="section has-text-centered">
+  <div class="container is-max-desktop has-text-centered">
+    <div class="columns is-mobile is-multiline">
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts1.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts2.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-full-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts3.jpg" alt="Photo of wheel bolt">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-medium has-text-centered is-size-5">
+    <a name="products"></a>
+    <p>Parts are manufactured by forging and/or turning</p>
+    <p>Bolts thread rolled after hardening</p>
+    <p>Many options of coatings are available</p>
+</section>
+
+<section class="section has-text-centered">
+  <div class="container is-max-desktop has-text-centered">
+    <div class="columns is-mobile is-multiline">
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts4.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts5.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-full-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts6.jpg" alt="Photo of wheel bolt">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-medium has-text-centered is-size-5">
+    <a name="aboutus"></a>
+    <p>Evo Automotive Solutions Ltd was established in 1999, specializing in Locking wheel nuts and bolts.</p>
+    <p>We supply to more than 30 car brands throughout the world for production lines, import centres and PDI fitment.</p>
+    <p>Parts are developed bespoke to the car companies' specifications</p>
+    <p>We also supply accessory parts for the aftermarket.</p>
+</section>
+
+<section class="section has-text-centered">
+  <div class="container is-max-desktop has-text-centered">
+    <div class="columns is-mobile is-multiline">
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts6.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts7.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-full-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts8.jpg" alt="Photo of wheel bolt">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section is-medium">
+    <a name="contactus"></a>
+    <div class="container mb-5">
+        <div class="columns is-multiline">
+        <div class="column is-4 mb-5 has-text-centered">
+            <span class="bulma-fa-mixin"><i class="fa-solid fa-2x fa-location-dot"></i></span>
+            <p class="mb-1">Unit 7 Denbigh Hall</p>
+            <p class="mb-0">Milton Keynes, MK3 7QT, UK</p>
+        </div>
+        <div class="column is-4 mb-5 has-text-centered">
+            <span class="bulma-fa-mixin"><i class="fa-solid fa-2x fa-envelope"></i></span>
+            <p class="mb-0">sales@evoautomotive.co.uk</p>
+        </div>
+        <div class="column is-4 has-text-centered">
+            <span class="bulma-fa-mixin"><i class="fa-solid fa-2x fa-phone"></i></span>
+            <p class="mb-1"><strong>Tel:</strong> +44 1908 64 65 66</p>
+            <p class="mb-0"><strong>Fax:</strong> +44 1908 64 63 62</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section is-medium has-background-light">
+    <div class="container">
+        <div class="is-vcentered columns is-multiline">
+            <div class="column is-12 is-8-desktop mx-auto has-text-centered">
+                <h2 class="mt-6 mb-4 title is-size-2 is-spaced">If you wish to place an order for replacement keys</h2>
+                <a class="button is-black" href="https://www.evoautomotive.com">Order here</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-ter  py-10">
+    <div class="container">
+        <div class="columns">
+            <div class="column p-4">
+                <div class="has-background-white py-12" style="border-radius: 6px;">
+                <a href="https://www.bsigroup.com/en-US/iso-9001-quality-management/" title="Read more about ISO 9001 quality management on the BSI site" target="_blank"><img class="is-block mx-auto" src="assets/logo-bsi.png" alt="BSI ISO 9001 certified logo"></a>
+                </div>
+            </div>
+            <div class="column p-4">
+                <div class="has-background-white py-12" style="border-radius: 6px;">
+                <a href="https://www.achilles.com/" title="Visit Achilles auditing website" target="_blank"><img class="is-block mx-auto" src="assets/logo-achilles.png" alt="Achilles Automotive silver logo"></a>
+                </div>
+            </div>
+            <div class="column p-4">
+                <div class="has-background-white py-12" style="border-radius: 6px;">
+                <a href="https://programs.cyberreadinessinstitute.org/courses/cyber-readiness-program" title="Visit Cyber Readiness Institute website" target="_blank"><img class="is-block mx-auto" src="assets/logo-cyber.png" alt="Cyber Readiness Program logo"></a>
+                </div>
+            </div>
+            <div class="column p-4">
+                <div class="has-background-white py-12" style="border-radius: 6px;">
+                <a href="https://www.thatcham.org/" title="Open Thatcham Research website" target="_blank"><img class="is-block mx-auto" src="assets/logo-thatcham.png" alt="Thatcham Research logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
