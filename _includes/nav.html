@@ -1,7 +1,21 @@
+<!-- Sticky header -->
+<header class="header-outer has-background-black">
+    <div class="header-inner responsive-wrapper">
+      <div class="header-logo">
+        <img src="/assets/evo-logo-500-rv.png" width="500" alt="Evo Automotive Solutions">
+      </div>
+      <!-- <nav class="header-navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+        <button>Menu</button>
+      </nav> -->
 
-<section class="section is-medium has-text-centered has-background-black">
+<!-- <section class="section pt-5 pb-5 has-text-centered has-background-black">
     <img src="/assets/evo-logo-500-rv.png" width="500" alt="Evo Automotive Solutions">
 </section>
+-->
 <nav class="navbar is-black">
 
     <div class="navbar-brand">
@@ -17,15 +31,21 @@
 
     <br>
 
-    <div class="navbar-menu" id="navMenu">
+    <div class="navbar-menu has-text-centered" id="navMenu">
         <div class="navbar-start">
-            {% for n in site.navbar.start %}
-            <a href="{{n.url | relative_url}}" class="navbar-item">
-            <span>{{n.title}}</span>
+            <a href="/#products" class="navbar-item products-link">
+            <span>Products</span>
             </a>
-            {% endfor %}
+            <a href="/#aboutus" class="navbar-item about-link">
+            <span>About us</span>
+            </a>
+            <a href="/#contactus" class="navbar-item contact-link">
+            <span>Contact us</span>
+            </a>
         </div>
 
     </div>
 </nav>
 
+</div>
+</header>

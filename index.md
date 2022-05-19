@@ -3,24 +3,8 @@ layout: onepage
 title: Evo Automotive Solutions Ltd
 ---
 
-<section class="section has-text-centered">
-  <div class="container is-max-desktop has-text-centered">
-    <div class="columns is-mobile is-multiline">
-      <div class="column is-half-mobile is-one-third-tablet">
-        <img class="image is-fullwidth" src="assets/nuts1.jpg" alt="Photo of wheel bolt">
-      </div>
-      <div class="column is-half-mobile is-one-third-tablet">
-        <img class="image is-fullwidth" src="assets/nuts2.jpg" alt="Photo of wheel bolt">
-      </div>
-      <div class="column is-full-mobile is-one-third-tablet">
-        <img class="image is-fullwidth" src="assets/nuts3.jpg" alt="Photo of wheel bolt">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section is-medium has-text-centered is-size-5">
-    <a name="products"></a>
+<section class="section pt-5 pb-5 mt-5 mb-5 has-text-centered is-size-5 has-background-light">
+    <h2 class="title is-3">Products</h2><a name="products"></a>
     <p>Parts are manufactured by forging and/or turning</p>
     <p>Bolts thread rolled after hardening</p>
     <p>Many options of coatings are available</p>
@@ -38,15 +22,25 @@ title: Evo Automotive Solutions Ltd
       <div class="column is-full-mobile is-one-third-tablet">
         <img class="image is-fullwidth" src="assets/nuts6.jpg" alt="Photo of wheel bolt">
       </div>
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts1.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-half-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts2.jpg" alt="Photo of wheel bolt">
+      </div>
+      <div class="column is-full-mobile is-one-third-tablet">
+        <img class="image is-fullwidth" src="assets/nuts3.jpg" alt="Photo of wheel bolt">
+      </div>
     </div>
   </div>
+  <a name="aboutus"></a>
 </section>
 
 <section class="section is-medium has-text-centered is-size-5">
-    <a name="aboutus"></a>
+    <h2 class="title is-3">About us</h2>
     <p>Evo Automotive Solutions Ltd was established in 1999, specializing in Locking wheel nuts and bolts.</p>
     <p>We supply to more than 30 car brands throughout the world for production lines, import centres and PDI fitment.</p>
-    <p>Parts are developed bespoke to the car companies' specifications</p>
+    <p>Parts are developed bespoke to the car companies' specifications.</p>
     <p>We also supply accessory parts for the aftermarket.</p>
 </section>
 
@@ -62,13 +56,13 @@ title: Evo Automotive Solutions Ltd
       <div class="column is-full-mobile is-one-third-tablet">
         <img class="image is-fullwidth" src="assets/nuts8.jpg" alt="Photo of wheel bolt">
       </div>
-
+        <a name="contactus"></a>
     </div>
   </div>
 </section>
 
-<section class="section is-medium">
-    <a name="contactus"></a>
+<section class="section is-medium has-background-light">
+    <h2 class="title is-3 has-text-centered">Contact us</h2>
     <div class="container mb-5">
         <div class="columns is-multiline">
         <div class="column is-4 mb-5 has-text-centered">
@@ -90,12 +84,12 @@ title: Evo Automotive Solutions Ltd
 </section>
 
 
-<section class="section is-medium has-background-light">
+<section class="section is-medium">
     <div class="container">
         <div class="is-vcentered columns is-multiline">
             <div class="column is-12 is-8-desktop mx-auto has-text-centered">
-                <h2 class="mt-6 mb-4 title is-size-2 is-spaced">If you wish to place an order for replacement keys</h2>
-                <a class="button is-black" href="https://www.evoautomotive.com">Order here</a>
+                <h2 class="mt-6 mb-4 title is-size-2 is-spaced">To place an order for replacement keys</h2>
+                <a class="button is-black mt-5" href="https://www.evoautomotive.com">Order here</a>
             </div>
         </div>
     </div>
