@@ -8,9 +8,13 @@ $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", 
 
 :root {
     --header-outer-height: 450px;
-    --header-inner-height: 60px;
+    --header-mobile-outer-height: 250px;
+    --header-inner-height: 200px;
     --header-height-difference: calc(
       var(--header-outer-height) - var(--header-inner-height)
+    );
+    --header-mobile-height-difference: calc(
+      var(--header-mobile-outer-height) - var(--header-inner-height)
     );
     --header-bg: #0a0a0a;
 }
@@ -18,9 +22,13 @@ $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", 
 /* Sticky header */
 .header-outer {
     /* Make it stick */
+    height: var(--header-mobile-outer-height);
+    position: sticky;
+    top: calc(
+    var(--header-mobile-height-difference) * -1 ); /* Multiply by -1 to get a negative value */
     @include tablet {
         height: var(--header-outer-height);
-    //position: sticky;
+        position: sticky;
         top: calc(
         var(--header-height-difference) * -1
         ); /* Multiply by -1 to get a negative value */
@@ -37,8 +45,11 @@ $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", 
 .header-inner {
     /* Make it stick */
     height: var(--header-inner-height);
-    //position: sticky;
+    position: sticky;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
 }
 
@@ -46,7 +57,10 @@ $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", 
 .header-logo  {
     
     img {
-        margin: 0 auto;
+        margin: 0 auto 2rem;
+        @include tablet {
+            margin: 0 auto;
+        }
         display: block;
         //height: calc(var(--header-inner-height) - 30px);
     }
