@@ -100,7 +100,7 @@ title: Evo Automotive Solutions Ltd
   <section class="section is-medium">
       <div class="container">
           <div class="is-vcentered columns is-multiline">
-              <div class="column is-12 is-8-desktop mx-auto has-text-centered">
+              <div class="column is-12 mx-auto has-text-centered">
                   <h2 class="mt-6 mb-4 title is-size-4 is-spaced">To place an order for replacement keys</h2>
                   <a class="button is-black mt-5" href="https://www.evoautomotive.com" title="Order replacement keys from the EvoAutomotive.com website">Order here</a>
               </div>
