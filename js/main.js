@@ -26,4 +26,7 @@ $(document).ready(function() {
     $(document).on('click', '.products-link', function(){
         scrollToAnchor('products');
     });
+    $(document).on('click', '.replacement-link', function(){
+        scrollToAnchor('replacement');
+    });
 });    

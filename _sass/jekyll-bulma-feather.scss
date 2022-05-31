@@ -1,8 +1,9 @@
-$navbar-background-color: #0a0a0a;
+$navbar-background-color: #000;
 $navbar-item-color: #eee;
 $navbar-item-hover-color: #eee;
 $navbar-item-hover-background-color: #565656;
 $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$black:        hsl(0, 0%, 0%) !default;
 
 @import "bulma";
 
@@ -17,6 +18,22 @@ $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", 
       var(--header-mobile-outer-height) - var(--header-inner-height)
     );
     --header-bg: #0a0a0a;
+}
+
+/* full screen EVO logo */
+.full-screen {
+    background: black;
+
+    @include tablet {
+        min-height: calc(100vh - 77px);
+    }
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 20px;
 }
 
 /* Sticky header */
@@ -65,17 +82,21 @@ $body-family: BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Helvetica", 
         //height: calc(var(--header-inner-height) - 30px);
     }
 }
-
-body {
+.navbar-item {
+    justify-content: center;
+}
+/*body {
     >nav {
         @extend .navbar;
 
         div, li {
             display: flex;
+            justify-content: center;
 
             * {
                 @extend .navbar-item;
                 display: flex;
+                justify-content: center;
                 width: 100%;
             }
 
@@ -124,7 +145,7 @@ body {
         @extend .content;
     }
 }
-
+*/
 .cards {
     @extend .columns;
     @extend .is-multiline;
