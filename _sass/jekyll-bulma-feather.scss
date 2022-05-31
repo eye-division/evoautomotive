@@ -85,67 +85,7 @@ $black:        hsl(0, 0%, 0%) !default;
 .navbar-item {
     justify-content: center;
 }
-/*body {
-    >nav {
-        @extend .navbar;
 
-        div, li {
-            display: flex;
-            justify-content: center;
-
-            * {
-                @extend .navbar-item;
-                display: flex;
-                justify-content: center;
-                width: 100%;
-            }
-
-            // For some reason these need overridden on GitHub Pages; I think
-            // it's an issue with whatever SASS compiler it uses.
-            * {
-                * {
-                    padding: 0px;
-                }
-            }
-
-            *:hover {
-                * {
-                    color: $navbar-item-hover-color;
-                }
-            }
-        }
-
-        .navbar-menu {
-            @extend .is-active;
-        }
-
-        .navbar-start {
-            justify-content: center;
-            margin: 0 auto;
-        }
-    }
-
-    >header, >main, >footer {
-        @extend .section;
-    }
-
-    >header {
-        h1 {
-            @extend .title;
-            @extend .is-1;
-        }
-
-        p {
-            @extend .subtitle;
-            @extend .is-3;
-        }
-    }
-
-    >footer {
-        @extend .content;
-    }
-}
-*/
 .cards {
     @extend .columns;
     @extend .is-multiline;
@@ -290,5 +230,4 @@ $black:        hsl(0, 0%, 0%) !default;
 
 .bulma-fa-mixin {
     @include fa(1rem, 2rem);
-    background-color: white; // For demo purposes
   }
