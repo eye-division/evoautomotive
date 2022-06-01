@@ -2,7 +2,8 @@
 layout: onepage
 title: Evo Automotive Solutions Ltd
 ---
-{% include sticky-header.html %}
+{% include navbar.html %}
+<!-- sticky-header.html -->
 <section class="full-screen full-width">
   <div class="header-logo is-centered">
     <a href="#products" class="products-link"><img class="is-centered" src="/assets/evo-logo-500-rv.png" width="500" alt="Evo Automotive Solutions"></a>
