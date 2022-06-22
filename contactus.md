@@ -1,6 +1,7 @@
 ---
 layout: onepage
 title: Contact us - Evo Automotive Solutions Ltd
+permalink: /contactus/
 ---
 {% include navbar.html %}
 
