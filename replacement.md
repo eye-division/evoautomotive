@@ -1,6 +1,7 @@
 ---
 layout: onepage
 title: Replacement Keys - Evo Automotive Solutions Ltd
+permalink: /replacement/
 ---
 {% include navbar.html %}
 

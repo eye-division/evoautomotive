@@ -1,6 +1,7 @@
 ---
 layout: onepage
 title: About Evo Automotive Solutions Ltd
+permalink: /aboutus/
 ---
 {% include navbar.html %}
 <section class="has-text-white has-background-black evoheader  full-width">

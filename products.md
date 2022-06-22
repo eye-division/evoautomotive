@@ -1,6 +1,7 @@
 ---
 layout: onepage
 title: Products - Evo Automotive Solutions Ltd
+permalink: /products/
 ---
 {% include navbar.html %}
 
