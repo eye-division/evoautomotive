@@ -38,6 +38,20 @@ $black:        hsl(0, 0%, 0%) !default;
 
 
 /* Styling of other elements */
+.evoheader {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    @include from(960px) {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        
+    }
+    .title {
+        @include from(960px) {
+            padding-top: 2rem;
+        }
+    }
+}
 .header-logo  {
     
     img {
