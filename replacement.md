@@ -18,7 +18,7 @@ permalink: /replacement/
       <div class="container">
           <div class="is-vcentered columns is-multiline">
               <div class="column is-12 mx-auto has-text-centered">
-                  <h2 class="mt-6 mb-4 title is-size-4 is-spaced">If you already own our product and wish to order a replacement key order:</h2>
+                  <h2 class="mt-6 mb-4 title is-size-4 is-spaced">If you already own our product and wish to order a replacement key:</h2>
                   <p><a class="button is-black my-5" href="https://www.evoautomotive.com" title="Order replacement keys from the EvoAutomotive.com website">Order here</a><br> You will be redirected to our bespoke key ordering website.</p>
               </div>
           </div>

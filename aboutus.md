@@ -25,17 +25,17 @@ permalink: /aboutus/
   <section class="section has-text-centered">
     <div class="container is-max-desktop has-text-centered">
       <div class="columns is-gapless is-mobile is-multiline">
-        <div class="column is-half-mobile is-one-quarter-tablet">
-          <img class="image is-fullwidth" src="/assets/nuts12.jpg" alt="Photo of wheel bolt">
+        <div class="column is-half-mobile is-one-quarter-tablet nuts">
+          <img class="image is-fullwidth" src="/assets/about-nuts-1.jpg" alt="Photo of wheel bolt">
+        </div>
+        <div class="column is-half-mobile is-one-quarter-tablet nuts">
+          <img class="image is-fullwidth" src="/assets/about-nuts-2.jpg" alt="Photo of wheel bolt">
+        </div>
+        <div class="column is-half-mobile is-one-quarter-tablet nuts">
+          <img class="image is-fullwidth" src="/assets/about-nuts-3.jpg" alt="Photo of wheel bolt">
         </div>
         <div class="column is-half-mobile is-one-quarter-tablet">
-          <img class="image is-fullwidth" src="/assets/nuts11.jpg" alt="Photo of wheel bolt">
-        </div>
-        <div class="column is-half-mobile is-one-quarter-tablet">
-          <img class="image is-fullwidth" src="/assets/nuts10.jpg" alt="Photo of wheel bolt">
-        </div>
-        <div class="column is-half-mobile is-one-quarter-tablet">
-          <img class="image is-fullwidth" src="/assets/nuts-grey1.jpg" alt="Photo of wheel bolt">
+          <img class="image is-fullwidth" src="/assets/about-nuts-4.jpg" alt="Photo of wheel bolt">
         </div>
       </div>
     </div>
