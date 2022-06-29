@@ -13,7 +13,7 @@ permalink: /aboutus/
 <h1 class="is-sr-only">{{page.title}}</h1>
 <main class="content">
 
-  <section class="section has-text-centered is-size-5">
+  <section class="container section has-text-centered is-size-5">
       <h2 class="title is-3">About us</h2>
       <p>Evo Automotive Solutions Ltd was established in 1999, specializing in Locking Wheel Nuts and Bolts.</p>
       <p>We supply to more than 30 car brands throughout the world for production lines, import centres and PDI fitment.</p>

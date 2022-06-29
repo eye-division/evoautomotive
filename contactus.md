@@ -13,9 +13,9 @@ permalink: /contactus/
 </section>
 <h1 class="is-sr-only">{{page.title}}</h1>
 <main class="content">
-    <section class="section has-background-light">
+    <section class="container section has-background-light">
       <h2 class="title is-3 has-text-centered">Contact us</h2>
-      <div class="container mb-5">
+      <div class="mb-5">
           <div class="columns is-multiline">
           <div class="column is-4 mb-5 has-text-centered">
               <span class="bulma-fa-mixin"><i class="fa-solid fa-2x fa-location-dot"></i></span>

@@ -13,7 +13,7 @@ permalink: /products/
 </section>
 <h1 class="is-sr-only">{{page.title}}</h1>
 <main class="content">
-  <section class="section pt-5 pb-5 mt-5 mb-5 has-text-centered is-size-5 has-background-light">
+  <section class="container section pt-5 pb-5 mt-5 mb-5 has-text-centered is-size-5 has-background-light">
       <h2 class="title is-3">Locking Wheel Nuts and Bolts</h2>
       <p>Parts are manufactured by forging and/or turning</p>
       <p>Bolts thread rolled after hardening</p>
