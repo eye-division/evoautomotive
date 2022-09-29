@@ -2,6 +2,9 @@
 title: jekyll-bulma-feather
 ---
 
+# Evo site
+Adapted from the Bulma Jekyll theme at https://jekyllthemes.io/theme/bulma
+
 # What?
 
 It's a barebones Jekyll theme that includes Bulma and Feather, with some default
